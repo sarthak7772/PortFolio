@@ -1,0 +1,33 @@
+/* This CSS file is only for the loader page */
+#loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:#171c28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.light-mode #loader{
+    background: white !important;
+}
+
+
+.loader-content {
+    text-align: center;
+}
+.loader-content #name-load{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white;
+}
+.light-mode .loader-content #name-load{
+    color: black !important;
+}
+
+header,main{
+    display: none;
+}
